@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v3
       - name: hello
         run: |
           echo " This is second time using ci/cd but this time as a ML engineer"
+      - name: run python script
+        run: |
+          pip install -r requirements.txt
+          python ci.py
