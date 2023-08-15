@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.1-arm64-arm-64bit",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-08-15T16:11:01.142801",
+    "startedAt": "2023-08-15T16:10:54.513402",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "client/wandb_client.ipynb",
+    "root": "/Volumes/AM/Desktop/MLOPs/wanddb_cicd",
+    "git": {
+        "remote": "git@github.com:amaboh/wanddb_cicd.git",
+        "commit": "2e45e35ec63e814d8a0f5452b6a399d33a562cf4"
+    },
+    "email": "85511496+amaboh@users.noreply.github.com",
+    "host": "Amas-Air",
+    "username": "ama",
+    "executable": "/Users/ama/mambaforge/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 213.8830337524414
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
